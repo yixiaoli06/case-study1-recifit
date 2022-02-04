@@ -20,7 +20,7 @@ background-color: #202124;
 }
 
 .jumbotron{
-background-color:#CEF3F8;
+background-image:url("images/hero-image-overlay.png");
 color: #202124;
 height: 400px;
 margin-bottom: 0px;
