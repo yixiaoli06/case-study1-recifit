@@ -47,9 +47,13 @@ h5{
 text-align: center;
 }
 
+p{
+margin: auto;
+}
+
 .overview-panel{
 justify-content: center;
-background-color:#024C6B;
+background-color:#2E2F32;
 color: white;
 padding: 40px;
 }
@@ -58,11 +62,11 @@ padding: 40px;
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-color:#013043;
+background-color:#2E2F32;
 }
 
 .card{
-background-color:#013043;
+background-color:#2E2F32;
 color:white;
 }
 
@@ -88,12 +92,15 @@ padding: 40px;
 
 .research-synthesis-container{
 background-color: #CEF3F8;
-height: 500px;
+}
+
+.research-copy{
+padding:2% 5%;
 }
 
 .problem-statement-container{
-background-color:#024C6B;
-padding: 80px;
+background-color:#2E2F32;
+padding: 5%;
 }
 
 #problem-statement-copy{
@@ -139,38 +146,42 @@ display: flex;
 justify-content: center;
 }
 
-.media{
-background-color:#202124;
+.testing-container{
+background-color:#2E2F32;
 color: white;
 }
 
-.usability-testing-chart{
-padding: 100px 0px 0px 0px;
-}
 
-#usability-testing-title{
-text-align: center;
+.testing-image{
+margin-left: 7%;
 }
 
 .usability-testing-copy{
-margin: 50px;
+padding: 3%;
 }
+
 
 .ml-3{
 padding: 30px;
 }
 
 .solution-top{
-background-color:#202124;
-color: white;
+background-color:#CEF3F8;
+color: #202124;
 padding: 80px;
 }
 
+#solution{
+color: #202124;
+}
+
+
 #conclusion-and-future-opportunities{
-color:#202124;
+color:skyblue;
 }
 
 .solution-bottom{
-background-color:#CEF3F8;
+background-color:#2E2F32;
+color: white;
 padding: 80px;
 }
